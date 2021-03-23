@@ -12,5 +12,6 @@ public class DateFormExample {
         System.out.println("现在的时间是：" + dateFormat1.format(dateNow));
         System.out.println("现在的时间是：" + dateFormat2.format(dateNow));
         System.out.println("现在的时间是：" + dateFormat3.format(dateNow));
+
     }
 }

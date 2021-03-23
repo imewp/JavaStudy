@@ -10,7 +10,6 @@ package com.imewp.demo02.Set;
             同名同年龄的人，视为同一个人，只能存储一次
 */
 
-import sun.java2d.pipe.SpanIterator;
 
 import java.util.HashSet;
 

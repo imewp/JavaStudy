@@ -1,4 +1,4 @@
-package com.imewp.demo08.ThreadSafe;
+package com.imewp.demo10.Synchronized;
 
 //模逆卖票案例
 //创建3个线程，同时开启，对共享的票进行出售
@@ -13,5 +13,6 @@ public class Demo01Ticket {
         t0.start();
         t1.start();
         t2.start();
+
     }
 }

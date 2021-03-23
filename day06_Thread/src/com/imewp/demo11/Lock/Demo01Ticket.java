@@ -1,4 +1,4 @@
-package com.imewp.demo08.ThreadSafe;
+package com.imewp.demo11.Lock;
 
 //模逆卖票案例
 //创建3个线程，同时开启，对共享的票进行出售
