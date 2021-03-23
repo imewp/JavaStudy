@@ -19,8 +19,8 @@ public class Demo01CopyFile {
     public static void main(String[] args) throws IOException {
         long s = System.currentTimeMillis();        //测试读取写入的效率
 
-        FileInputStream fis = new FileInputStream("day08_IOAndProperties/src/com/imewp/1.jpeg");
-        FileOutputStream fos = new FileOutputStream("day08_IOAndProperties/src/com/imewp/demo03/CopyFile/copy.jpeg");
+        FileInputStream fis = new FileInputStream("day08_IOAndProperties/src/com/imewp/1.pdf");
+        FileOutputStream fos = new FileOutputStream("day08_IOAndProperties/src/com/imewp/demo03/CopyFile/copy.pdf");
 
         //一次读取一个字节写入一个字节的方式
        /* int len = 0;
